@@ -1,0 +1,174 @@
+.date_search h1 {
+  color: #1d1d1d;
+  font-family: Poppins;
+  font-size: 2.8125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
+  text-align: center;
+}
+
+.date_search h3 {
+  color: #1d1d1d;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 1.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 3px;
+  text-decoration-line: underline;
+  text-decoration-color: #e80370;
+}
+
+.date_search {
+  display: flex;
+  flex-direction: column;
+}
+.list_of_cet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.month {
+  border-bottom: 2px solid red;
+  width: fit-content;
+  margin-left: 45px;
+}
+
+.User_Heading h2 {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 68px;
+  color: hsl(0, 0%, 11%);
+  margin-top: 5rem !important;
+
+  text-align: left;
+}
+.headerbox_Second {
+  text-decoration: underline;
+}
+.Text_Top_heading {
+  position: absolute;
+  width: 50.76rem;
+  height: 35.21px;
+  top: 200.39px;
+  /* gradient button */
+  background: linear-gradient(
+    90deg,
+    #fd6542 8.19%,
+    #e80370 49.3%,
+    #5d0d56 94.64%
+  );
+  filter: blur(50px);
+  border-radius: 138px;
+  transform: rotate(-0.17deg);
+}
+
+.days_side {
+  width: 100% !important ;
+}
+.Days_list {
+  display: flex;
+  justify-content: start;
+}
+.topheadcardheading {
+  margin-left: -350px;
+}
+.number-list {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-auto-flow: column;
+  grid-template-rows: repeat(6, 40px);
+}
+
+.categories {
+  cursor: pointer;
+}
+
+.number {
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  margin: 5px 0;
+}
+
+.active_category {
+  transition-duration: 1s;
+  font-size: 17px;
+}
+
+.days {
+  color: #44d2ff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 992px) {
+  .User_Heading h2 {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 68px;
+    color: hsl(0, 0%, 11%);
+    margin-top: 5rem !important;
+
+    text-align: left;
+  }
+
+  .Text_Top_heading {
+    position: absolute;
+    width: 90%;
+    height: 50.21px;
+    top: 200.39px;
+    /* gradient button */
+    background: linear-gradient(
+      90deg,
+      #fd6542 8.19%,
+      #e80370 49.3%,
+      #5d0d56 94.64%
+    );
+    filter: blur(50px);
+    border-radius: 138px;
+    transform: rotate(-0.17deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .parentDiv {
+    display: flex !important;
+    flex-direction: column;
+    gap: 0 !important;
+  }
+  .number-list {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(16, 40px);
+  }
+  .categories {
+    display: none;
+  }
+  .active_category {
+    display: block;
+    border: 1px solid gray;
+    background-color: #eff2f5;
+    padding: 5px;
+    border-radius: 8px;
+    margin-left: -90px;
+  }
+  .dot {
+    display: none;
+  }
+  .topheadcardheading {
+    margin-left: auto;
+  }
+  .month {
+    margin-left: 25px;
+  }
+}

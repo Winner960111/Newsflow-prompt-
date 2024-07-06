@@ -1,0 +1,350 @@
+.User_DashBoard_bg {
+    background: #F5F5F5;
+    height: auto;
+    padding-top: 100px;
+}
+
+.User_Top h1 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 68px;
+    color: #1D1D1D;
+    margin-top: 5rem !important;
+
+    text-align: left;
+
+}
+
+.Text_Top {
+    position: absolute;
+    width: 459.76px;
+    height: 37.21px;
+    /* left: 166px; */
+    top: 200.39px;
+
+    /* gradient button */
+
+    background: linear-gradient(90deg, #FD6542 8.19%, #E80370 49.3%, #5D0D56 94.64%);
+    filter: blur(50px);
+    border-radius: 138px;
+    transform: rotate(-0.17deg);
+
+}
+
+.User_Top p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 180%;
+    /* identical to box height, or 29px */
+    text-align: left;
+
+    color: #6B6B6B;
+
+}
+
+.Right_Side_Start {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.Right_Side_Start h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 180%;
+    width: 162px;
+    text-align: center;
+
+    color: #6B6B6B;
+
+}
+
+@media screen and (max-width:608px) {
+    .Text_Top {
+        width: 359.76px;
+
+    }
+
+    .Right_Side_Start {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+
+
+    }
+
+    .Right_Side_Start h5 {
+
+        font-size: 22px;
+        line-height: 180%;
+        width: 100%;
+        text-align: center;
+
+
+    }
+
+    .User_Top h1 {
+
+        font-size: 35px;
+
+
+        text-align: center;
+
+    }
+
+    .User_Top p {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 180%;
+        /* identical to box height, or 29px */
+        text-align: center;
+
+        color: #6B6B6B;
+
+    }
+
+    .model_main {
+        width: 100% !important;
+    }
+
+    .Biz_Finance {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .Biz_Finance .first_chiled {
+        margin-top: 1rem;
+    }
+
+    .politics_lg {
+        display: none;
+    }
+}
+
+.model_main_div .first_p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 57px;
+    color: #1D1D1D;
+    text-align: center;
+
+}
+
+.model_main_div p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 180%;
+    color: #6B6B6B;
+    text-align: center;
+}
+
+.checkbox_model {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red;/ */
+}
+
+.checkbox_model span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: #6B6B6B;
+}
+
+.checkbox_model1 span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 180%;
+    color: #6B6B6B;
+}
+
+.inner_div_model_checkbox {
+    width: 10rem;
+    /* border: 1px solid red; */
+
+}
+
+.inner_div_model_checkbox1 {
+    width: 20rem;
+    /* border: 1px solid red; */
+
+}
+
+.model_footer_Things {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.model_footer_Things span {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 180%;
+    color: #6B6B6B;
+    margin-left: -3rem;
+}
+
+.model_footer_Things button {
+    background: linear-gradient(89.9deg, #5D0D56 -5.97%, #E80370 57.28%, #FD6542 140.86%);
+    border-radius: 40px;
+    padding: 5px 50px;
+    gap: 10px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 180% */
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #FFFFFF;
+
+}
+
+
+@media (min-width:600px) and (max-width:768px) {
+    .model_main {
+        width: 50% !important;
+    }
+}
+
+.model_main {
+    width: 30%;
+}
+
+.Biz_Finance {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.Biz_Finance .first_chiled {
+    width: 100px;
+    height: 68px;
+    margin-left: 0.5rem;
+    padding: 5px;
+    margin-top: 0.5rem;
+
+
+    border: 0.5px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.active_child {
+    background: rgba(0, 255, 25, 0.2);
+}
+
+.first_chiled p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.box_text_Btn_sport p {
+    font-family: 'Poppins', sans-serif;
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 1rem;
+
+    text-align: center;
+
+    color: #6B6B6B;
+
+}
+
+.box_text_Btn_sport h6 {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 114% */
+    margin-top: -1rem !important;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+
+}
+
+.extra_text {
+    display: flex;
+    justify-content: center;
+    margin-left: 2rem;
+    height: 68px;
+}
+
+@media (min-width:600px) and (max-width:4000px) {
+    .politics_mobile {
+        display: none;
+    }
+}
+
+
+
+.Steps_labels {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 180%;
+    /* identical to box height, or 40px */
+
+
+    color: #6B6B6B;
+}
+
+
+
+ .ant-select-selector {
+    width: 100%;
+    height: 45px !important;
+    padding: 5px 25px !important;
+    background:  #F5F5F5 !important;
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 20px !important;
+   
+}
+
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100 !important; 
+}

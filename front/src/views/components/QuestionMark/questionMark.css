@@ -1,0 +1,54 @@
+.question-mark-container {
+    position: relative;
+    display: inline-block;
+    margin-left: 5px;
+   
+  }
+  
+  .question-mark {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff; /* Changed to white */
+    border: 2px solid #000; /* Added black border */
+    border-radius: 50%;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    color: #000; /* Changed to black */
+    cursor: pointer;
+  }
+  
+  .caption {
+    position: absolute;
+    top: 0;
+    left: calc(100% + 10px); /* Position it to the right of the question mark */
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background-color: #fff; /* Same as question mark */
+    border: 2px solid #000; /* Same as question mark */
+    border-radius: 5px;
+    color: #000; /* Same as question mark */
+    font-size: 14px;
+    text-align: center;
+    z-index: 1;
+    display: none;
+  }
+  
+  .caption::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #000 transparent transparent;
+  }
+  
+  .question-mark-container:hover .caption {
+    display: block;
+  }
+  

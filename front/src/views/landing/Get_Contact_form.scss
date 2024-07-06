@@ -1,0 +1,140 @@
+.content-contact {
+    max-width: 992px;
+    margin: 0 auto;
+    padding: 50px 0;
+
+    .content-contact-title {
+      text-align: center;
+    }
+
+    .contact-body {
+      padding-top: 50px;
+      display: flex;
+      flex-direction: column;
+
+      .select-question {
+        position: relative;
+        width: 100%;
+        border: none;
+        border-bottom: #717171;
+        border-bottom-style: inset;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: -0.06em;
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+      .input-contact {
+        position: relative;
+        margin-top: 30px;
+        width: 48%;
+        height: 40px;
+        color: #717171;
+        text-align: Left;
+        border: none;
+        border-bottom: 2px solid #717171 !important;
+        border-bottom-style: inset;
+        border-width: 2px !important;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: -0.06em;
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+      .div-contact-two-input-items {
+        display: flex;
+        flex-direction: row;
+      }
+
+      .div-item-space {
+        width: 4%;
+      }
+
+      .input-contact-message {
+        position: relative;
+        margin-top: 30px;
+        width: 100%;
+        height: 40px;
+        color: #717171;
+        text-align: Left;
+        border: none;
+        border-bottom: 2px solid #717171 !important;
+        border-bottom-style: inset;
+        border-width: 2px !important;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        letter-spacing: -0.06em;
+        color: rgba(0, 0, 0, 0.6);
+      }
+
+      .contact-button {
+        position: relative;
+
+        padding: 15px 50px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        color: white;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 32px;
+        margin: 0 auto;
+        margin-top: 40px;
+        letter-spacing: -0.02em;
+
+        background: linear-gradient(89.9deg,
+            #5d0d56 -5.97%,
+            #e80370 57.28%,
+            #fd6542 140.86%);
+        border-radius: 40px;
+      }
+    }
+  }
+
+.content-title-line {
+  width: 280px;
+  margin: 0 auto;
+  height: 4px;
+  background: linear-gradient(89.9deg,
+      #5d0d56 -5.97%,
+      #e80370 57.28%,
+      #fd6542 140.86%);
+  border-radius: 40px;
+}
+
+.content-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  /* identical to box height, or 130% */
+
+  text-align: center;
+  letter-spacing: -0.06em;
+
+  color: #000000;
+}
+
+@media(max-width:537px) {
+  .landing .content .content-title-line {
+    width: 136px;
+    margin: 0 auto;
+    height: 4px;
+    background: linear-gradient(89.9deg, #5d0d56 -5.97%, #e80370 57.28%, #fd6542 140.86%);
+    border-radius: 40px;
+  }
+}

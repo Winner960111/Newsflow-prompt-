@@ -1,0 +1,381 @@
+.Enverment {
+    margin-top: 1rem;
+}
+
+/* .category-line{
+    margin-left: 5rem;
+} */
+.Enter_img {
+    position: absolute;
+    left: 0;
+}
+
+.sport_img {
+    position: absolute !important;
+    left: 15rem;
+
+
+
+}
+
+.bg_lines {
+    width: 100%;
+}
+
+.politi_img {
+    position: absolute;
+    left: 25rem;
+
+}
+
+.Business_img {
+    position: absolute;
+    left: 36rem;
+
+}
+
+.technology_img {
+    position: absolute;
+    left: 57rem;
+}
+
+.lifystyle_img {
+    position: absolute;
+    left: 70rem;
+}
+
+.health_img {
+    position: absolute;
+    left: 78rem;
+    margin-top: -4rem;
+}
+
+@media screen and (max-width:600px) {
+    .bg_lines {
+        margin-top: 2rem;
+        /* transform: translate(-40%, -20%); */
+        width: 230%;
+        margin-bottom: 1rem;
+    }
+
+    .Enverment {
+        width: 100%;
+        overflow-x: scroll;
+    }
+
+
+}
+
+.circle {
+    width: 70%;
+}
+
+.row_circle {
+    background-image: url('../../assests/image/circles.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.card_circle {
+    padding-top: 10%;
+    margin-left: 2rem;
+}
+
+.circl_Main_div {
+    width: 70%;
+
+}
+
+.Circl_text_main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.circle_text_h3 {
+    margin-left: -5rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 62px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+    letter-spacing: -0.087em;
+
+    color: #FFFFFF;
+
+    transform: rotate(-0.17deg);
+
+}
+
+.circle_text_p {
+    margin-left: -5rem;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 18px;
+    /* or 90% */
+
+    text-align: center;
+    letter-spacing: 0.003em;
+
+    color: #FFFFFF;
+
+    transform: rotate(-0.17deg);
+}
+
+@media (min-width:600px) and (max-width:780px) {
+    .circle_text_p {
+        font-size: 16px;
+
+    }
+
+    .circle_text_h3 {
+        font-size: 35px;
+    }
+
+    .card_circle {
+        padding-top: 20%;
+        margin-left: 2rem;
+    }
+
+    .circl_Main_div {
+        width: 100%;
+
+    }
+}
+
+@media (min-width:780px) and (max-width:1024px) {
+    .circle_text_p {
+        font-size: 18px;
+
+    }
+
+    .circle_text_h3 {
+        font-size: 45px;
+    }
+
+    .card_circle {
+        padding-top: 15%;
+        margin-left: 2rem;
+    }
+
+    .circl_Main_div {
+        width: 100%;
+
+    }
+}
+
+@media (min-width:1024px) and (max-width:1440px) {
+
+    .card_circle {
+        padding-top: 8%;
+        margin-left: 2rem;
+    }
+
+    .circl_Main_div {
+        width: 80%;
+
+    }
+}
+
+
+@media (min-width:1440px) and (max-width:4000px) {
+
+    .card_circle {
+        padding-top: 8%;
+        margin-left: 2rem;
+    }
+
+    .circl_Main_div {
+        width: 48%;
+
+    }
+}
+
+
+@media (min-width:992px) and (max-width:6000px) {
+
+    .responsei_bar {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .desktop_lag {
+        display: none !important;
+    }
+
+    .predictioncheckboxdiv {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+    }
+
+    .select-date-type {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .content {
+        margin-top: 2rem;
+    }
+}
+
+.signup_password.ant-input-affix-wrapper>input.ant-input {
+    padding: 0;
+    font-size: inherit;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background-color: #191919 !important;
+    color: #fff !important;
+}
+
+.ant-input-affix-wrapper .anticon.ant-input-password-icon {
+    color: #fff !important;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.ant-form-item .ant-form-item-explain-error {
+    color: #fff !important;
+    text-align: left !important;
+    margin: 0.2rem 0rem 0.6rem 0rem !important;
+}
+
+.signup_password ::placeholder {
+    color: #fff !important;
+    opacity: 1;
+
+}
+
+
+
+.landing_pag_pagr {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    /* or 131% */
+
+    text-align: center;
+
+    color: rgba(252, 252, 252, 0.6);
+}
+
+.relevant_start {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+
+    color: #6B6B6B;
+}
+
+.Auth_p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+
+    color: rgba(232, 3, 112, 0.8);
+}
+
+.Auth_icon {
+    color: rgba(232, 3, 112, 0.8);
+    font-size: 40px;
+
+}
+
+.link_dec {
+    text-decoration: none !important;
+}
+
+.Possible_btn {
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 142px;
+    height: 50px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+
+
+    color: #696969;
+}
+
+.Article_data {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 62px;
+    /* identical to box height, or 312% */
+
+    text-align: center;
+    letter-spacing: -0.092em;
+
+    color: #1D1D1D;
+}
+
+
+.container {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.boxes::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.Predictions::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.Enverment::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.Auth_p1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+
+    color: rgba(232, 3, 112, 0.8);
+}
+
+.Auth_icon1 {
+    color: rgba(232, 3, 112, 0.8);
+    font-size: 20px;
+
+}
+
+.ant-select-selector{
+background-color: transparent !important;
+border: 1px solid #000000 !important;
+border-radius: 5px !important;
+
+}
+.ant-select-selection-item{
+    font-size: 17px !important;
+    font-weight: 700 !important;
+}

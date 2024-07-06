@@ -1,0 +1,19 @@
+.select-question {
+    position: relative;
+    margin-top: 30px;
+    width: 48%;
+    height: 40px;
+    color: #717171;
+    text-align: Left;
+    border: none;
+    border-bottom: 2px solid #717171 !important;
+    border-bottom-style: inset;
+    border-width: 2px !important;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.06em;
+    color: rgba(0, 0, 0, 0.6);
+}

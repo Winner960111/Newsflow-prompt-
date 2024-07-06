@@ -1,0 +1,227 @@
+.Deep_Dive {
+  background: linear-gradient(180.36deg, #ffffff 67.32%, #ffffff 116.86%);
+  backdrop-filter: blur(107px);
+}
+
+.main_div_deep_dive_heading {
+  padding: 10px 50px;
+}
+
+.text_deep {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: left !important;
+  /* identical to box height, or 72% */
+  margin-left: 2rem;
+  text-align: center;
+
+  color: #65c8ff;
+}
+
+.lister_heading {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  color: #1d1d1d;
+
+  text-align: left;
+}
+
+.main_Deep_dive {
+  padding: 100px 50px;
+}
+
+.deep_dive_list {
+  list-style: none !important;
+  list-style-type: none;
+  padding: 0px;
+  text-align: left;
+}
+
+.deep_dive_list li {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  padding-left: 15px;
+  cursor: pointer;
+
+  /* identical to box height */
+
+  padding-top: 15px;
+  color: #1d1d1d;
+}
+
+.deep_dive_second_col h4 {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 180%;
+  /* identical to box height, or 29px */
+
+  text-align: left;
+  color: #6b6b6b;
+}
+
+.deep_dive_second_col p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 180%;
+  text-align: left;
+  /* or 29px */
+
+  color: #6b6b6b;
+}
+
+.Text_Top_Deep {
+  position: relative;
+  width: 450.38px;
+  height: 30.21px;
+  /* left: 166px; */
+  /* top: 80.39px; */
+
+  /* gradient button */
+
+  background: linear-gradient(
+    90deg,
+    #fd6542 8.19%,
+    #e80370 49.3%,
+    #5d0d56 94.64%
+  );
+  filter: blur(30px);
+  border-radius: 138px;
+  transform: rotate(-0.17deg);
+}
+
+.first_heading_deep .text_on_Deep_bg h6 {
+  position: absolute;
+  margin-top: -2rem;
+  margin-left: -26rem;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+}
+
+.first_heading_deep .text_on_Deep_bg h6 img {
+  width: 30px;
+}
+
+.first_heading_deep {
+  display: flex;
+  align-items: center;
+  margin-top: 6rem;
+}
+
+@media screen and (max-width: 992px) {
+  .Predictions {
+    position: relative;
+    margin-top: 10px;
+    color: #1d1d1d;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 50px;
+    width: 100% !important;
+    overflow-x: scroll !important;
+  }
+  .landing .boxes {
+    width: 750px;
+    height: 100%;
+    overflow-x: scroll !important;
+  }
+  .Text_Top_Deep {
+    position: relative;
+    width: 180.38px;
+    height: 20.21px;
+    /* left: 166px; */
+    /* top: 80.39px; */
+
+    /* gradient button */
+
+    background: linear-gradient(
+      90deg,
+      #fd6542 8.19%,
+      #e80370 49.3%,
+      #5d0d56 94.64%
+    );
+    filter: blur(30px);
+    border-radius: 138px;
+    transform: rotate(-0.17deg);
+  }
+
+  .first_heading_deep .text_on_Deep_bg h6 {
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: -10rem;
+    text-align: left;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+  }
+
+  .first_heading_deep .text_on_Deep_bg h6 img {
+    width: 20px;
+  }
+
+  .first_heading_deep {
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+  }
+
+  .shareIcon {
+    width: 15px;
+  }
+
+  .deep_dive_list {
+    text-align: center;
+  }
+
+  .lister_heading {
+    text-align: center;
+  }
+}
+
+.Active_Item {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000 !important;
+  border-left: #e80370 5px solid;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+.list_items::before {
+  background: #e80370;
+  content: "";
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+  width: 5px;
+  height: 10%;
+}
+
+.deep_dive_second_col {
+  text-align: left;
+}
+.text_on_Deep_bg h6 {
+  text-align: left;
+}

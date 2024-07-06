@@ -1,0 +1,52 @@
+.adblock-dialog-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  }
+  
+  .adblock-dialog {
+    width: 500px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .adblock-dialog-header {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .adblock-dialog-header button {
+    border: none;
+    background: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .adblock-dialog-content h2 {
+    color: #333;
+    margin-top: 0;
+  }
+  
+  .adblock-dialog-content p {
+    color: #666;
+  }
+  
+  .adblock-dialog-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  

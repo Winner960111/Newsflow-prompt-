@@ -1,0 +1,149 @@
+.Text_Top_About2 {
+    position: relative;
+    width: 300.38px;
+    height: 30.21px;
+    /* left: 166px; */
+    /* top: 80.39px; */
+
+    /* gradient button */
+
+    background: linear-gradient(90deg, #FD6542 8.19%, #E80370 49.3%, #5D0D56 94.64%);
+    filter: blur(30px);
+    border-radius: 138px;
+    transform: rotate(-0.17deg);
+}
+
+.first_heading2 {
+    display: flex;
+    align-items: center;
+    margin-top: 6rem;
+
+
+
+}
+
+.first_heading2 .text_on_about_bg2 h1 {
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: -15rem;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #000000;
+
+}
+
+.User_Name label {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    /* identical to box height */
+    color: rgba(0, 0, 0, 0.8);
+    width: 6rem;
+    text-align: left;
+}
+
+.User_Name input {
+    background: #FFFFFF;
+    border: 1px solid rgba(112, 206, 231, 0.5);
+    border-radius: 8px 8px 8px 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.8);
+
+}
+
+.Input_labe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.space_compact {
+    width: 26%;
+
+}
+
+.first_Second {
+    width: 25%;
+}
+
+@media screen and (max-width:600px) {
+    .Input_labe {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .space_compact {
+        width: 70%;
+        margin-top: 1rem;
+    }
+
+    .Input_labe .first_Second {
+        width: 75%;
+        margin-top: 1rem;
+    }
+}
+
+.UserName_Input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+._Submit_BTn {
+    background: linear-gradient(89.9deg, #5D0D56 -5.97%, #E80370 57.28%, #FD6542 140.86%);
+    border-radius: 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 8px 35px 33px 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.ant-input-affix-wrapper{
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    min-width: 0;
+    padding: 4px 11px;
+    color: rgba(0, 0, 0, 0.88);
+    font-size: 14px;
+    line-height: 1.5714285714285714;
+    background-color: #ffffff;
+    background-image: none;
+    border-width: 1px;
+    border-style: solid;
+    border-color:  rgba(112, 206, 231, 0.5);;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+.Title_model{
+    font-size: 24px;
+    font-weight: 700;
+}
+.password.input.ant-input {
+    padding: 5px;
+    font-size: inherit;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background-color: #fff ;
+    color: #fff !important;
+}
+
+.password .anticon.ant-input-password-icon {
+    color: #000000 !important;
+    cursor: pointer;
+    transition: all 0.3s;
+}

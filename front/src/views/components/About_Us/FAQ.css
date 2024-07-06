@@ -1,0 +1,146 @@
+.Text_Top_About {
+    display: block;
+    position: relative;
+    width: 600.38px;
+    height: 5px;
+    /* left: 166px; */
+    /* top: 80.39px; */
+
+    /* gradient button */
+
+    /* filter: blur(30px); */
+    /* margin-top: 40px; */
+    background-image: linear-gradient(90deg, #FD6542 8.19%, #E80370 49.3%, #5D0D56 94.64%);
+    /* border-radius: 138px; */
+    /* transform: rotate(-0.17deg); */
+}
+
+.About_bg{
+    padding-top: 10px;
+}
+
+.first_heading {
+    display: block!important;
+    align-items: center;
+    margin-top: 6rem;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.first_heading .text_on_about_bg h1 {
+    position: relative!important;
+    margin-top: 2rem;
+    /* margin-left: -33rem; */
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #878787;
+    text-align: left;
+    align-items: baseline;
+}
+
+.first_heading .text_on_about_bg h1 > span {
+    color: #000000;
+}
+
+.About_first_p_text p {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    /* or 135% */
+
+    text-align: left;
+    letter-spacing: -0.06em;
+
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.expand1 {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+
+    color: #525252;
+}
+
+.Text_Top_About2 {
+    position: relative;
+    width: 850.38px;
+    height: 30.21px;
+    /* left: 166px; */
+    /* top: 80.39px; */
+
+    /* gradient button */
+
+    background: linear-gradient(90deg, #FD6542 8.19%, #E80370 49.3%, #5D0D56 94.64%);
+    filter: blur(30px);
+    border-radius: 138px;
+    transform: rotate(-0.17deg);
+}
+
+
+@media screen and (max-width:600px) {
+
+    .first_heading .text_on_about_bg h1 {
+        position: relative;
+        margin-top: 2rem;
+        text-align: left;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        color: #000000;
+
+    }
+}
+
+@media (min-width:600px) and (max-width:800px) {
+
+    .first_heading .text_on_about_bg h1 {
+        position: relative;
+        margin-top: 2rem;
+        text-align: left;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        color: #000000;
+    }
+}
+
+.faq_content {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.expander {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 1rem;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+
+    color: #525252;
+    cursor: pointer;
+}
+
+.textbox.expanded {
+    max-height: none;
+}
+  
+.text {
+    -webkit-line-clamp: 4; /* Limit the number of lines to 4 */
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis; /* Show ... when text overflows */
+}

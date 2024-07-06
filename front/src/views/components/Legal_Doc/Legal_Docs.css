@@ -1,0 +1,30 @@
+
+
+.Active_Legal{
+    color: #1D1D1D;
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: -1rem !important;
+
+}
+.Active_Item_legal {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000 !important;
+    border-left: #E80370 5px solid;
+    border-radius: 5px;
+    padding-left: 20px !important;
+
+
+
+}
+
+.list_alpha{
+    list-style-type:lower-alpha;
+}

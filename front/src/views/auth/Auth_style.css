@@ -1,0 +1,50 @@
+.LogIn_BG {
+    background-image: url('../../assests/image/LogIn_Bg.png');
+    background-position: center;
+    background-size: cover;
+    height: 110vh;
+    transform: translate(calc(100% - 100%));
+}
+
+.auth-mark-title-div {
+    position: absolute;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    text-align: center;
+
+    color: #000000;
+}
+.top1{
+    position: relative;
+    margin-top: 2rem;
+
+}
+.auth-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+    text-align: left;
+    
+    color: #191919;
+}
+
+
+.otp_class{
+    width: 3rem !important;
+    height: 3rem;
+    display: flex;
+    gap: 2 !important;
+    margin-left: 0.5rem;
+}
+
+
+
+
+
+
